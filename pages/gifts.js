@@ -2,7 +2,7 @@ import Head from "next/head";
 import React from "react";
 import { useState } from "react";
 import styles from "./index.module.css";
- 
+  
 export default function Home() {
   const [gender, setGender] = useState("man");
   const [age, setAge] = useState(30);
@@ -46,7 +46,7 @@ export default function Home() {
     } finally {
       setLoading(false);
     }
-  }
+  } 
 
   return (
     <div>
